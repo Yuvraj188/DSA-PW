@@ -3,23 +3,36 @@
 using namespace std;
 int main()
 {
-    vector<int> nums = {1, 1, 2, 3, 3, 4, 4, 5, 5};
+    // vector<int> nums = {10, 16, 7, 14, 5, 3, 12, 9};
+    // vector<int> v = {3, 5, 7, 9, 10, 12, 14, 16};
+    // for (int i = 0; i < nums.size(); i++)
+    // {
+    //     for (int j = 0; j < nums.size(); j++)
+    //     {
+    //         if (v[i] == nums[j])
+    //             nums[j] = i;
+    //     }
+    // }
+    // for (int k = 0; k < nums.size(); k++)
+    // {
+    //     cout << nums[k];
+    // }
 
-    int pointer = 1;
-    for (int i = 1; i < nums.size(); i++)
-    {
-        if (nums[i] != nums[i - 1])
-        {
-            nums[pointer] = nums[i];
-            pointer++;
-        }
-    }
+    // vector<int> v = {1, 1, 4};
+    // int i = 0;
 
-    cout << nums.size();
-    for (int num : nums)
-    {
-        cout << num << " ";
-    }
+    // while (i < v.size())
+    // {
+    //     if (v[i] == v[i + 1])
+    //     {
+    //         i = i + 2;
+    //     }
+    //     else
+    //     {
+    //         cout << v[i];
+    //         break;
+    //     }
+    // }
 
-    return 0;
+    vector<int> v = {1, 2, 3, 2, 1};
 }

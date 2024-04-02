@@ -18,6 +18,8 @@ int main()
     {
         cout << v[i] << " ";
     }
+    v.erase(v.begin(), 0);
+
     v.pop_back(); // reduce the size but not changes capacity
     for (int i = 0; i < v.size(); i++)
     {
