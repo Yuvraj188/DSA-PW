@@ -5,3 +5,4 @@ using namespace std;
 vector<int> a = {1, 2, 3, 4};
 vector<int> b = {5, 6};
 vector<vector<int>> c = {{a}, {b}}; // vecot of vector
+// we can also use push_back(a);
